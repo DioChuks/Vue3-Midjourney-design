@@ -1,0 +1,22 @@
+{
+    "name": "PWA Quintessence App",
+    "short_name": "Quintessence PWA",
+    "theme_color":"#0A192F",
+    "background_color":"#FFFFFF",
+    "display":"standalone",
+    "scope":"/quintessence-pwa/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "../src/assets/pngtree-removebg-preview.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "../src/assets/pngtree-removebg-preview.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "splash_pages": null
+}
