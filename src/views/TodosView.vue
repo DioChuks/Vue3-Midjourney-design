@@ -5,14 +5,14 @@ import TodoHeader from "../components/TodoHeader.vue";
 <template>
   <div class="container">
     <div class="row justify-content-between">
-      <div class="col-4">
+      <div class="col-md-4">
         <span class="update"
           ><img src="../assets/Union.svg" alt="unionlogo" /> Introducing Image
           Feature</span
         >
         <h1 class="myTitle">Imagine with Serendipity</h1>
       </div>
-      <div class="col-4">One of two columns</div>
+      <div class="col-md-4">This is the update column</div>
     </div>
   </div>
 </template>
@@ -20,6 +20,7 @@ import TodoHeader from "../components/TodoHeader.vue";
 <style lang="scss" scoped>
 .update {
   color: #fff;
+  padding: 5px;
   border-radius: 8px;
   background: linear-gradient(
     180deg,
